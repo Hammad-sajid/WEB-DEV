@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url("../img/homepic.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+
+}
+
+.left{
+    position: absolute;
+    left: 35px;
+    top: 22px;
+
+}
+.left  img{
+    width:75px;
+    height:34px ;
+    display: block;
+    margin: auto;
+    filter: invert(100%);
+}
+.name{
+    margin: auto;
+    font-weight: 600;
+}
+
+.mid{
+    
+    display: block;
+    width: 33%;
+    margin: 22px auto;
+    padding: 5px;
+}
+.right{
+    
+    position: absolute;
+    right: 35px;
+    top:22px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.navbar li a:hover,.navbar li a:active{
+    color: grey;
+    text-decoration:underline;
+}
+.btn{
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 12px;
+    border: 2px solid rgb(36, 36, 36);
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(36, 36, 36);
+}
+.container{
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 35%;
+    margin: 115px 80px;
+    padding: 70px;
+}
+.container h1{
+    text-align: center;
+}
+.form-group input{
+    font-size: 20px;
+    margin:8px auto ;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    width: 458px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.form-group ::placeholder{
+    font-weight:500;
+    color: black;
+
+}
+.container button{
+    display: block;
+    width: 470px;
+    margin:8px auto;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+   
