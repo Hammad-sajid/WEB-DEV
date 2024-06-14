@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position in css</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            border: 3px solid black;
+        }
+        .box{
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 3px;
+        }
+        #box3{
+            position: relative;/*move according to normal position and leave a gap */
+            top:15px;
+            left: 10px;
+        }
+        #box2{
+            position: absolute;
+            top: 10px;
+        }
+        #box1{
+            position: sticky;
+            top: 0;
+        }
+        #box4{
+            position: fixed;
+            right: 150px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" id="box1"><p>first box</p></div>
+    <div class="box" id="box2"><p>second box</p></div>
+    <div class="box" id="box3"><p>third box</p></div>
+    <div class="box" id="box4"><p>fourth box</p></div>
+</div>
+<div>
+    <img src="green1.jpg" alt="" style="width: 100%;">
+</div>
+</body>
+</html>

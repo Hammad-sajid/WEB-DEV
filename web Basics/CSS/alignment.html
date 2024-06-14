@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Alignment</title>
+    <style>
+*{
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1000px;
+    border: 4px solid red;
+    margin: 30px auto;
+   
+
+}
+.item{
+    border: 2px solid grey;
+    margin: 15px 5px;
+    padding: 12px 5px;
+    background-color: bisque;
+     
+
+}
+#fruit{
+    float: left;
+    width: 45%;
+}
+#computer{
+   float: right;
+   width: 45%;
+}
+#stationery{
+    width: auto;
+    clear: both;
+    
+}
+p,h3{
+    text-align: left;
+    text-align: center;
+    text-align: justify;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="fruit">
+            <h3>FRUITS</h3>
+            <p id="fruit-para" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni ipsa recusandae, qui sunt, nobis aut error quo cupiditate aperiam ipsam consequatur voluptates doloribus voluptatibus molestias eius minima, atque earum impedit!</p>
+        </div>
+            <div class="item" id="computer">
+                <h3>COMPUTERS</h3>
+                <p id="computer-para" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum alias at, quam, perspiciatis adipisci nam ratione aliquid voluptate nostrum illo quas non inventore sed mollitia. Distinctio suscipit aperiam pariatur optio.</p>
+            </div>
+            <div class="item" id="stationery">
+                <h3>STATIONERY</h3>
+                <p id="stationery-para" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam aut ipsum aperiam perspiciatis accusantium totam maiores iste architecto magni! Corrupti quasi voluptatem, dolore omnis eaque natus facilis exercitationem praesentium cumque.</p>
+
+
+            </div>
+        
+    </div>
+</body>
+</html>
